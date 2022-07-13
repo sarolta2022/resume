@@ -72,6 +72,7 @@ body {
 @media (max-width: 500px) {
   .resume {
     font-size: 1.25rem;
+    color: red;
   }
 
   .hamburger-links {
