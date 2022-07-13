@@ -70,12 +70,13 @@ body {
 }
 
 @media (max-width: 500px) {
-  .resume {
-    font-size: 1.25rem;
-    color: red;
+  .navbar {
+    display: flex;
+    flex-direction: column;
   }
 
-  .hamburger-links {
+  .tile-header,
+  .experiences-header {
     font-size: 2rem;
   }
 }
@@ -92,11 +93,9 @@ body {
   }
 }
 
-/*exported*/
-
 h1 {
   font-family: "Berkshire Swash", cursive;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .tile {
@@ -125,9 +124,9 @@ h1 {
   border-radius: 5px;
 }
 
-.experiences-header {
+/*.experiences-header {
   font-size: 4rem;
-}
+}*/
 
 .card {
   display: flex;

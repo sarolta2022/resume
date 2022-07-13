@@ -15,7 +15,7 @@ const Experiences = (props) => {
           setShow(!show);
         }}
       >
-        <h1 className="tile-header experiences-header">Experiences</h1>
+        <h1 className="tile-header">Experiences</h1>
         <img className="tile" src={Boots} alt="boots" />
       </div>
       {show && (
