@@ -69,6 +69,16 @@ body {
   margin: auto;
 }
 
+@media (max-width: 500px) {
+  .resume {
+    font-size: 1.25rem;
+  }
+
+  .hamburger-links {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 720px) {
   .avatar {
     display: none;
