@@ -12,11 +12,11 @@ import Github from "./components/Github";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"></div>
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/index">
             <Home />
           </Route>
           <Route path="/fresh">
