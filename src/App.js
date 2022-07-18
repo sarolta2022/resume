@@ -16,7 +16,7 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Home />
           </Route>
           <Route path="/fresh">
